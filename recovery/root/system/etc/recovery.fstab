@@ -1,0 +1,15 @@
+# mount point	fstype		device			[device2]
+
+/system         ext4    /dev/block/by-name/mmcblk0p19          flags=display="System";backup=1;flashimg=1
+/cache          ext4    /dev/block/by-name/mmcblk0p21          flags=display="Cache";backup=1;flashimg=1
+/data           ext4    /dev/block/by-name/mmcblk0p22          flags=display=Data;backup=1;flashimg=1
+/recovery       emmc    /dev/block/by-name/mmcblk0p17          flags=display="Recovery";backup=1;flashimg=1
+/boot           emmc    /dev/block/by-name/mmcblk0p16          flags=display="Boot";backup=1;flashimg=1
+/splash         emmc    /dev/block/by-name/mmcblk0p18          flags=display="Splash";backup=1;flashimg=1
+/misc           emmc    /dev/block/by-name/mmcblk0p20          flags=display="MİSC";backup=1;flashimg=1
+/amss           emmc    /dev/block/by-name/mmcblk0p13          flags=display="AMSS";backup=1;flashimg=1
+/oemsbl         emmc    /dev/block/by-name/mmcblk0p3           flags=display="OEMSBL";backup=1;flashimg=1
+/cefs           emmc    /dev/block/by-name/mmcblk0p11          flags=display="CEFS";backup=1;flashimg=1
+/emmcboot       emmc    /dev/block/by-name/mmcblk0p17          flags=display="EMMCBOOT";backup=1;flashimg=1
+/qcsbl          emmc    /dev/block/by-name/mmcblk0p2           flags=display="QCSBL";backup=1;flashimg=1
+/qcsblhd_cfgdata       emmc    /dev/block/by-name/mmcblk0p1           flags=display="QCSBLHD_CFGDATA";backup=1;flashimg=1
